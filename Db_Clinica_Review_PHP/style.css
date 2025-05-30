@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+input {
+    font-size: 20px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(173, 5, 173);
+    color: aliceblue;
+}
+
+h1 {
+    margin-bottom: 10px;
+}

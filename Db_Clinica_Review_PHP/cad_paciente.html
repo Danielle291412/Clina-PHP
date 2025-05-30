@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Paciente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Paciente</h1>
+        <form action="insert_paciente.php" method="post">
+            <label for="nm_paciente">Nome do Paciente</label>
+            <input type="text" name="nm_paciente" id="nm_paciente">
+
+            <label for="idade">Idade</label>
+            <input type="text" name="idade" id="idade">
+
+            <label for="dt_nascimento">Data de Nascimento</label>
+            <input type="date" name="dt_nascimento" id="dt_nascimento">
+
+            <button type="submit">Adicionar Paciente</button>
+
+        </form>
+    </div>
+
+</body>
+</html>
